@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Small Dogs, Big Discrimination - Advocating for fair treatment of small dogs in housing, public spaces, and travel. Join the movement for tiny paws everywhere.">
+    <meta name="keywords" content="small dogs, pet discrimination, dog rights, pet advocacy, small dog owners">
+    <meta name="author" content="Small Pet Coalition">
+    <meta property="og:title" content="Small Dogs, Big Discrimination">
+    <meta property="og:description" content="Join us in fighting unfair restrictions against small dogs worldwide.">
+    <meta property="og:type" content="website">
+    <title>Small Dogs, Big Discrimination | Fight Pet Discrimination</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <i class="fas fa-paw"></i>
+                <span>SmallPawsUnite</span>
+            </a>
+            <div class="language-switcher" id="langSwitcher">
+                <button class="lang-btn active" data-lang="en" aria-label="English">
+                    <span class="lang-flag">🇬🇧</span>
+                    <span class="lang-code">EN</span>
+                </button>
+                <button class="lang-btn" data-lang="uk" aria-label="Українська">
+                    <span class="lang-flag">🇺🇦</span>
+                    <span class="lang-code">UA</span>
+                </button>
+                <button class="lang-btn" data-lang="ru" aria-label="Русский">
+                    <span class="lang-flag">🇷🇺</span>
+                    <span class="lang-code">RU</span>
+                </button>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link" data-i18n="nav.home">Home</a></li>
+                <li><a href="#problem" class="nav-link" data-i18n="nav.problem">The Problem</a></li>
+                <li><a href="#why-unfair" class="nav-link" data-i18n="nav.whyUnfair">Why It's Unfair</a></li>
+                <li><a href="#take-action" class="nav-link" data-i18n="nav.takeAction">Take Action</a></li>
+                <li><a href="#contact" class="nav-link nav-cta" data-i18n="nav.joinUs">Join Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <span class="hero-badge animate-fade-in" data-i18n="hero.badge">🐾 Standing Up For The Little Ones</span>
+            <h1 class="hero-title animate-slide-up"><span data-i18n="hero.titlePart1">Small Dogs,</span><br><span class="highlight" data-i18n="hero.titlePart2">Big Discrimination</span></h1>
+            <p class="hero-subtitle animate-slide-up-delay" data-i18n="hero.subtitle">Why are tiny paws treated unfairly? It's time to challenge the restrictions that small dogs face every day in housing, public spaces, and beyond.</p>
+            <div class="hero-buttons animate-fade-in-delay">
+                <a href="#problem" class="btn btn-primary" data-i18n="hero.learnMore">Learn More</a>
+                <a href="#take-action" class="btn btn-secondary" data-i18n="hero.takeAction">Take Action</a>
+            </div>
+            <div class="hero-stats animate-fade-in-delay-2">
+                <div class="stat">
+                    <span class="stat-number" data-target="67">0</span>%
+                    <span class="stat-label" data-i18n="hero.stat1Label">of landlords restrict small pets</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" data-target="45">0</span>%
+                    <span class="stat-label" data-i18n="hero.stat2Label">of cafes ban all dogs</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" data-target="89">0</span>%
+                    <span class="stat-label" data-i18n="hero.stat3Label">face travel restrictions</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <a href="#intro">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </header>
+
+    <!-- Introduction Section -->
+    <section class="intro" id="intro">
+        <div class="container">
+            <div class="intro-content">
+                <div class="intro-text">
+                    <span class="section-badge" data-i18n="intro.badge">The Issue</span>
+                    <h2 data-i18n="intro.title">Every Paw Deserves Equal Treatment</h2>
+                    <p data-i18n="intro.text1">Small dogs bring immense joy to millions of families worldwide. Yet, despite their compact size and manageable nature, they face discrimination that larger breeds often don't encounter.</p>
+                    <p data-i18n="intro.text2">From "no pets" policies that ignore the practicality of small dogs to restaurants that won't allow a well-behaved Chihuahua in a carrier bag, the restrictions are both widespread and unjust.</p>
+                    <div class="intro-features">
+                        <div class="feature">
+                            <i class="fas fa-home"></i>
+                            <span data-i18n="intro.feature1">Housing Restrictions</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-store"></i>
+                            <span data-i18n="intro.feature2">Public Space Bans</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-plane"></i>
+                            <span data-i18n="intro.feature3">Travel Limitations</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="intro-image">
+                    <div class="image-card">
+                        <img src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&h=400&fit=crop" alt="Small dog looking hopeful" loading="lazy">
+                        <div class="image-caption">
+                            <i class="fas fa-quote-left"></i>
+                            <p data-i18n="intro.quote">"I just want to go everywhere with my human"</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem Section -->
+    <section class="problem" id="problem">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge" data-i18n="problem.badge">Understanding The Problem</span>
+                <h2 data-i18n="problem.title">Where Small Dogs Face Discrimination</h2>
+                <p data-i18n="problem.subtitle">Despite their size and ease of management, small dogs encounter barriers in three major areas of daily life.</p>
+            </div>
+            
+            <div class="problem-cards">
+                <!-- Housing Card -->
+                <article class="problem-card" data-aos="fade-up">
+                    <div class="card-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3 data-i18n="problem.housing.title">Housing Discrimination</h3>
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=400&h=250&fit=crop" alt="Apartment building" loading="lazy">
+                    </div>
+                    <p data-i18n="problem.housing.text">Many landlords implement blanket "no pet" policies, refusing to consider that a 5-pound Yorkie is vastly different from a 100-pound Great Dane.</p>
+                    <ul class="problem-list">
+                        <li><i class="fas fa-times-circle"></i> <span data-i18n="problem.housing.list1">"No pets allowed" regardless of size</span></li>
+                        <li><i class="fas fa-times-circle"></i> <span data-i18n="problem.housing.list2">Excessive pet deposits for tiny dogs</span></li>
+                        <li><i class="fas fa-times-circle"></i> <span data-i18n="problem.housing.list3">Weight limits that unfairly exclude</span></li>
+                    </ul>
+                    <div class="card-story">
+                        <div class="story-avatar">
+                            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=50&h=50&fit=crop" alt="Sarah" loading="lazy">
+                        </div>
+                        <div class="story-content">
+                            <p data-i18n="problem.housing.story">"I was denied 12 apartments because of my 4-pound Chihuahua, Pepper. She fits in my purse!"</p>
+                            <span data-i18n="problem.housing.storyAuthor">— Sarah, NYC</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Public Spaces Card -->
+                <article class="problem-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card-icon">
+                        <i class="fas fa-coffee"></i>
+                    </div>
+                    <h3 data-i18n="problem.publicSpaces.title">Public Space Bans</h3>
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=400&h=250&fit=crop" alt="Cafe with outdoor seating" loading="lazy">
+                    </div>
+                    <p data-i18n="problem.publicSpaces.text">Cafes, restaurants, and shops often ban all dogs without considering that a small dog in a carrier poses no hygiene or safety risk.</p>
+                    <ul class="problem-list">
+                        <li><i class="fas fa-times-circle"></i> <span data-i18n="problem.publicSpaces.list1">Outdoor patios refusing small dogs</span></li>
+                        <li><i class="fas fa-times-circle"></i> <span data-i18n="problem.publicSpaces.list2">Stores banning carrier-held pets</span></li>
+                        <li><i class="fas fa-times-circle"></i> <span data-i18n="problem.publicSpaces.list3">Parks with strict leash-only zones</span></li>
+                    </ul>
+                    <div class="card-story">
+                        <div class="story-avatar">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=50&h=50&fit=crop" alt="Marcus" loading="lazy">
+                        </div>
+                        <div class="story-content">
+                            <p data-i18n="problem.publicSpaces.story">"My Pomeranian sits quietly in her carrier. We were still asked to leave a pet store!"</p>
+                            <span data-i18n="problem.publicSpaces.storyAuthor">— Marcus, London</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Travel Card -->
+                <article class="problem-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card-icon">
+                        <i class="fas fa-plane-departure"></i>
+                    </div>
+                    <h3 data-i18n="problem.travel.title">Travel Restrictions</h3>
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=400&h=250&fit=crop" alt="Airplane cabin" loading="lazy">
+                    </div>
+                    <p data-i18n="problem.travel.text">Airlines and public transport often impose stricter, more expensive rules on small dogs that can easily fit under a seat.</p>
+                    <ul class="problem-list">
+                        <li><i class="fas fa-times-circle"></i> <span data-i18n="problem.travel.list1">Excessive cabin pet fees</span></li>
+                        <li><i class="fas fa-times-circle"></i> <span data-i18n="problem.travel.list2">Limited pets per flight quotas</span></li>
+                        <li><i class="fas fa-times-circle"></i> <span data-i18n="problem.travel.list3">Breed-specific discrimination</span></li>
+                    </ul>
+                    <div class="card-story">
+                        <div class="story-avatar">
+                            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=50&h=50&fit=crop" alt="Emma" loading="lazy">
+                        </div>
+                        <div class="story-content">
+                            <p data-i18n="problem.travel.story">"I paid $200 extra for my 3-pound Maltese to sit in a bag under my seat. A bag!"</p>
+                            <span data-i18n="problem.travel.storyAuthor">— Emma, Sydney</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why It's Unfair Section -->
+    <section class="why-unfair" id="why-unfair">
+        <div class="container">
+            <div class="why-content">
+                <div class="why-left">
+                    <span class="section-badge" data-i18n="whyUnfair.badge">The Facts</span>
+                    <h2 data-i18n="whyUnfair.title">Why These Restrictions Are Unjustified</h2>
+                    <p data-i18n="whyUnfair.subtitle">Small dogs are uniquely suited for urban living and public spaces. The restrictions they face are often based on outdated policies and misconceptions.</p>
+                    
+                    <div class="facts-accordion">
+                        <div class="accordion-item active">
+                            <button class="accordion-header">
+                                <i class="fas fa-feather"></i>
+                                <span data-i18n="whyUnfair.accordion.carry.title">Easy to Carry & Manage</span>
+                                <i class="fas fa-chevron-down accordion-icon"></i>
+                            </button>
+                            <div class="accordion-content">
+                                <p data-i18n="whyUnfair.accordion.carry.text">Small dogs typically weigh under 20 pounds and can be comfortably carried in bags or on laps. They require minimal space and are easy to control in any environment.</p>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <button class="accordion-header">
+                                <i class="fas fa-volume-mute"></i>
+                                <span data-i18n="whyUnfair.accordion.disruptive.title">Less Disruptive</span>
+                                <i class="fas fa-chevron-down accordion-icon"></i>
+                            </button>
+                            <div class="accordion-content">
+                                <p data-i18n="whyUnfair.accordion.disruptive.text">When properly contained, small dogs are virtually unnoticeable in public settings. They don't bump into people, don't require large spaces, and many are trained to be quiet and calm.</p>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <button class="accordion-header">
+                                <i class="fas fa-graduation-cap"></i>
+                                <span data-i18n="whyUnfair.accordion.trainable.title">Highly Trainable</span>
+                                <i class="fas fa-chevron-down accordion-icon"></i>
+                            </button>
+                            <div class="accordion-content">
+                                <p data-i18n="whyUnfair.accordion.trainable.text">Small breeds like Poodles, Papillons, and Miniature Schnauzers rank among the most intelligent dogs. They can be trained to behave impeccably in any situation.</p>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <button class="accordion-header">
+                                <i class="fas fa-shield-alt"></i>
+                                <span data-i18n="whyUnfair.accordion.risk.title">Minimal Risk</span>
+                                <i class="fas fa-chevron-down accordion-icon"></i>
+                            </button>
+                            <div class="accordion-content">
+                                <p data-i18n="whyUnfair.accordion.risk.text">Small dogs pose virtually no physical threat. Even in worst-case scenarios, their size means they cannot cause significant harm, yet they're often subject to the same restrictions as larger breeds.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="why-right">
+                    <div class="infographic-card">
+                        <h3 data-i18n="whyUnfair.infographic.title">Small Dog Facts</h3>
+                        <div class="infographic-stats">
+                            <div class="info-stat">
+                                <div class="info-icon">
+                                    <i class="fas fa-weight-hanging"></i>
+                                </div>
+                                <div class="info-content">
+                                    <span class="info-number" data-i18n="whyUnfair.infographic.weight">Under 20 lbs</span>
+                                    <span class="info-label" data-i18n="whyUnfair.infographic.weightLabel">Average weight</span>
+                                </div>
+                            </div>
+                            <div class="info-stat">
+                                <div class="info-icon">
+                                    <i class="fas fa-ruler"></i>
+                                </div>
+                                <div class="info-content">
+                                    <span class="info-number" data-i18n="whyUnfair.infographic.height">6-15 inches</span>
+                                    <span class="info-label" data-i18n="whyUnfair.infographic.heightLabel">Typical height</span>
+                                </div>
+                            </div>
+                            <div class="info-stat">
+                                <div class="info-icon">
+                                    <i class="fas fa-heart"></i>
+                                </div>
+                                <div class="info-content">
+                                    <span class="info-number" data-i18n="whyUnfair.infographic.lifespan">15+ years</span>
+                                    <span class="info-label" data-i18n="whyUnfair.infographic.lifespanLabel">Average lifespan</span>
+                                </div>
+                            </div>
+                            <div class="info-stat">
+                                <div class="info-icon">
+                                    <i class="fas fa-brain"></i>
+                                </div>
+                                <div class="info-content">
+                                    <span class="info-number" data-i18n="whyUnfair.infographic.intelligence">Top 10</span>
+                                    <span class="info-label" data-i18n="whyUnfair.infographic.intelligenceLabel">Intelligence ranking</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comparison-chart">
+                            <h4 data-i18n="whyUnfair.infographic.chartTitle">Space Required Comparison</h4>
+                            <div class="chart-bar">
+                                <span class="bar-label" data-i18n="whyUnfair.infographic.smallDog">Small Dog</span>
+                                <div class="bar-fill" style="width: 15%;">
+                                    <span>2 sq ft</span>
+                                </div>
+                            </div>
+                            <div class="chart-bar">
+                                <span class="bar-label" data-i18n="whyUnfair.infographic.mediumDog">Medium Dog</span>
+                                <div class="bar-fill medium" style="width: 45%;">
+                                    <span>6 sq ft</span>
+                                </div>
+                            </div>
+                            <div class="chart-bar">
+                                <span class="bar-label" data-i18n="whyUnfair.infographic.largeDog">Large Dog</span>
+                                <div class="bar-fill large" style="width: 100%;">
+                                    <span>12+ sq ft</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Take Action Section -->
+    <section class="take-action" id="take-action">
+        <div class="container">
+            <div class="section-header light">
+                <span class="section-badge" data-i18n="takeAction.badge">Make A Difference</span>
+                <h2 data-i18n="takeAction.title">How to Fight Discrimination</h2>
+                <p data-i18n="takeAction.subtitle">Together, we can change policies and attitudes. Here's how you can help.</p>
+            </div>
+            
+            <div class="action-grid">
+                <div class="action-card">
+                    <div class="action-number">01</div>
+                    <div class="action-icon">
+                        <i class="fas fa-bullhorn"></i>
+                    </div>
+                    <h3 data-i18n="takeAction.advocate.title">Advocate</h3>
+                    <p data-i18n="takeAction.advocate.text">Speak up when you encounter unfair policies. Politely challenge restrictions and explain why small dogs deserve consideration.</p>
+                    <ul class="action-tips">
+                        <li data-i18n="takeAction.advocate.tip1">Talk to business owners about their policies</li>
+                        <li data-i18n="takeAction.advocate.tip2">Write to your local representatives</li>
+                        <li data-i18n="takeAction.advocate.tip3">Share your experiences on social media</li>
+                    </ul>
+                </div>
+                
+                <div class="action-card">
+                    <div class="action-number">02</div>
+                    <div class="action-icon">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                    <h3 data-i18n="takeAction.educate.title">Educate</h3>
+                    <p data-i18n="takeAction.educate.text">Help dispel myths about small dogs. Share facts about their behavior, training capabilities, and suitability for various environments.</p>
+                    <ul class="action-tips">
+                        <li data-i18n="takeAction.educate.tip1">Share educational content online</li>
+                        <li data-i18n="takeAction.educate.tip2">Bring well-behaved dogs to public spaces</li>
+                        <li data-i18n="takeAction.educate.tip3">Host community information sessions</li>
+                    </ul>
+                </div>
+                
+                <div class="action-card">
+                    <div class="action-number">03</div>
+                    <div class="action-icon">
+                        <i class="fas fa-balance-scale"></i>
+                    </div>
+                    <h3 data-i18n="takeAction.rights.title">Know Your Rights</h3>
+                    <p data-i18n="takeAction.rights.text">Understand the legal protections available to pet owners. Many discriminatory policies can be challenged legally.</p>
+                    <ul class="action-tips">
+                        <li data-i18n="takeAction.rights.tip1">Research local pet ownership laws</li>
+                        <li data-i18n="takeAction.rights.tip2">Document discriminatory incidents</li>
+                        <li data-i18n="takeAction.rights.tip3">Consult with pet advocacy groups</li>
+                    </ul>
+                </div>
+                
+                <div class="action-card">
+                    <div class="action-number">04</div>
+                    <div class="action-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3 data-i18n="takeAction.community.title">Build Community</h3>
+                    <p data-i18n="takeAction.community.text">Connect with other small dog owners. Together, your voice is stronger and your impact greater.</p>
+                    <ul class="action-tips">
+                        <li data-i18n="takeAction.community.tip1">Join local pet owner groups</li>
+                        <li data-i18n="takeAction.community.tip2">Attend pet-friendly events</li>
+                        <li data-i18n="takeAction.community.tip3">Support pet-friendly businesses</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Petition Section -->
+            <div class="petition-section">
+                <div class="petition-content">
+                    <div class="petition-icon">
+                        <i class="fas fa-file-signature"></i>
+                    </div>
+                    <h3 data-i18n="takeAction.petition.title">Sign Our Petition</h3>
+                    <p data-i18n="takeAction.petition.text">Join thousands of small dog advocates calling for fair treatment policies worldwide.</p>
+                    <div class="petition-progress">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 73%;"></div>
+                        </div>
+                        <div class="progress-text">
+                            <span><strong>73,421</strong> <span data-i18n="takeAction.petition.signatures">signatures</span></span>
+                            <span><span data-i18n="takeAction.petition.goal">Goal:</span> <strong>100,000</strong></span>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary btn-large" id="signPetition">
+                        <i class="fas fa-pen"></i> <span data-i18n="takeAction.petition.button">Sign the Petition</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stories Section -->
+    <section class="stories">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge" data-i18n="stories.badge">Community Voices</span>
+                <h2 data-i18n="stories.title">Stories from Small Dog Owners</h2>
+                <p data-i18n="stories.subtitle">Real experiences from people who face discrimination every day.</p>
+            </div>
+            
+            <div class="stories-slider" id="storiesSlider">
+                <div class="slider-container">
+                    <div class="story-slide active">
+                        <div class="story-card-large">
+                            <div class="story-image">
+                                <img src="https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?w=300&h=300&fit=crop" alt="Small dog" loading="lazy">
+                            </div>
+                            <div class="story-text">
+                                <div class="story-quote">
+                                    <i class="fas fa-quote-left"></i>
+                                </div>
+                                <p data-i18n="stories.story1.text">"My Dachshund, Bruno, has been my emotional support through anxiety. When we were turned away from a hotel that 'accepts pets', I was devastated. He weighs 8 pounds and stays in his carrier. How is that any different from a handbag?"</p>
+                                <div class="story-author">
+                                    <strong data-i18n="stories.story1.author">Jennifer L.</strong>
+                                    <span data-i18n="stories.story1.location">Portland, Oregon</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="story-slide">
+                        <div class="story-card-large">
+                            <div class="story-image">
+                                <img src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=300&h=300&fit=crop" alt="Small dog" loading="lazy">
+                            </div>
+                            <div class="story-text">
+                                <div class="story-quote">
+                                    <i class="fas fa-quote-left"></i>
+                                </div>
+                                <p data-i18n="stories.story2.text">"I've lived in my apartment for 5 years with perfect rent history. When I adopted a Toy Poodle, my landlord tried to evict me. The same building allows cats. Where's the logic?"</p>
+                                <div class="story-author">
+                                    <strong data-i18n="stories.story2.author">Michael R.</strong>
+                                    <span data-i18n="stories.story2.location">Toronto, Canada</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="story-slide">
+                        <div class="story-card-large">
+                            <div class="story-image">
+                                <img src="https://images.unsplash.com/photo-1537151625747-768eb6cf92b2?w=300&h=300&fit=crop" alt="Small dog" loading="lazy">
+                            </div>
+                            <div class="story-text">
+                                <div class="story-quote">
+                                    <i class="fas fa-quote-left"></i>
+                                </div>
+                                <p data-i18n="stories.story3.text">"Flying with my Chihuahua costs more than my own ticket sometimes. She sits in an approved carrier under the seat, takes up no extra space, and is quieter than most children. Why the premium?"</p>
+                                <div class="story-author">
+                                    <strong data-i18n="stories.story3.author">Aisha K.</strong>
+                                    <span data-i18n="stories.story3.location">Dubai, UAE</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-controls">
+                    <button class="slider-btn prev" aria-label="Previous story">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <div class="slider-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                    <button class="slider-btn next" aria-label="Next story">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <span class="section-badge" data-i18n="contact.badge">Get In Touch</span>
+                    <h2 data-i18n="contact.title">Join Our Movement</h2>
+                    <p data-i18n="contact.subtitle">Share your story, ask questions, or find out how you can contribute to the cause. We're building a community of advocates for small dogs everywhere.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span data-i18n="contact.email">hello@smallpawsunite.org</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span data-i18n="contact.location">Global Community - Online</span>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="TikTok">
+                            <i class="fab fa-tiktok"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name" data-i18n="contact.form.name">Your Name</label>
+                            <input type="text" id="name" name="name" required data-i18n-placeholder="contact.form.namePlaceholder" placeholder="Enter your name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email" data-i18n="contact.form.email">Email Address</label>
+                            <input type="email" id="email" name="email" required data-i18n-placeholder="contact.form.emailPlaceholder" placeholder="Enter your email">
+                        </div>
+                        <div class="form-group">
+                            <label for="dogName" data-i18n="contact.form.dogName">Your Dog's Name (Optional)</label>
+                            <input type="text" id="dogName" name="dogName" data-i18n-placeholder="contact.form.dogNamePlaceholder" placeholder="What's your furry friend called?">
+                        </div>
+                        <div class="form-group">
+                            <label for="message" data-i18n="contact.form.message">Your Message or Story</label>
+                            <textarea id="message" name="message" rows="4" required data-i18n-placeholder="contact.form.messagePlaceholder" placeholder="Share your experience or ask a question..."></textarea>
+                        </div>
+                        <div class="form-group checkbox-group">
+                            <input type="checkbox" id="newsletter" name="newsletter">
+                            <label for="newsletter" data-i18n="contact.form.newsletter">Subscribe to our newsletter for updates and advocacy tips</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <i class="fas fa-paper-plane"></i> <span data-i18n="contact.form.submit">Send Message</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#" class="footer-logo">
+                        <i class="fas fa-paw"></i>
+                        <span>SmallPawsUnite</span>
+                    </a>
+                    <p data-i18n="footer.tagline">Fighting for fair treatment of small dogs worldwide. Every paw matters, regardless of size.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4 data-i18n="footer.navigate.title">Navigate</h4>
+                        <ul>
+                            <li><a href="#home" data-i18n="footer.navigate.home">Home</a></li>
+                            <li><a href="#problem" data-i18n="footer.navigate.problem">The Problem</a></li>
+                            <li><a href="#why-unfair" data-i18n="footer.navigate.whyUnfair">Why It's Unfair</a></li>
+                            <li><a href="#take-action" data-i18n="footer.navigate.takeAction">Take Action</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4 data-i18n="footer.resources.title">Resources</h4>
+                        <ul>
+                            <li><a href="#" data-i18n="footer.resources.laws">Pet Laws Guide</a></li>
+                            <li><a href="#" data-i18n="footer.resources.facts">Small Dog Facts</a></li>
+                            <li><a href="#" data-i18n="footer.resources.toolkit">Advocacy Toolkit</a></li>
+                            <li><a href="#" data-i18n="footer.resources.forum">Community Forum</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4 data-i18n="footer.connect.title">Connect</h4>
+                        <ul>
+                            <li><a href="#" data-i18n="footer.connect.contact">Contact Us</a></li>
+                            <li><a href="#" data-i18n="footer.connect.share">Share Your Story</a></li>
+                            <li><a href="#" data-i18n="footer.connect.volunteer">Volunteer</a></li>
+                            <li><a href="#" data-i18n="footer.connect.donate">Donate</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p><span data-i18n="footer.copyright">© 2025 SmallPawsUnite. Made with</span> <i class="fas fa-heart"></i> <span data-i18n="footer.copyrightEnd">for tiny paws everywhere.</span></p>
+                <p class="disclaimer" data-i18n="footer.disclaimer">This is an advocacy website. Always respect local laws and business policies while working to change them.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Petition Modal -->
+    <div class="modal" id="petitionModal">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <button class="modal-close" aria-label="Close modal">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="modal-header">
+                <i class="fas fa-paw"></i>
+                <h3 data-i18n="modal.title">Sign the Petition</h3>
+                <p data-i18n="modal.subtitle">Add your voice to the movement for fair treatment of small dogs.</p>
+            </div>
+            <form class="petition-form" id="petitionForm">
+                <div class="form-group">
+                    <input type="text" name="petitionName" required data-i18n-placeholder="modal.namePlaceholder" placeholder="Your Full Name">
+                </div>
+                <div class="form-group">
+                    <input type="email" name="petitionEmail" required data-i18n-placeholder="modal.emailPlaceholder" placeholder="Email Address">
+                </div>
+                <div class="form-group">
+                    <select name="country" required id="countrySelect">
+                        <option value="" data-i18n="modal.countryPlaceholder">Select Your Country</option>
+                        <option value="US" data-i18n="modal.countries.us">United States</option>
+                        <option value="UK" data-i18n="modal.countries.uk">United Kingdom</option>
+                        <option value="CA" data-i18n="modal.countries.ca">Canada</option>
+                        <option value="AU" data-i18n="modal.countries.au">Australia</option>
+                        <option value="DE" data-i18n="modal.countries.de">Germany</option>
+                        <option value="FR" data-i18n="modal.countries.fr">France</option>
+                        <option value="UA" data-i18n="modal.countries.ua">Ukraine</option>
+                        <option value="OTHER" data-i18n="modal.countries.other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group checkbox-group">
+                    <input type="checkbox" id="petitionNewsletter" name="petitionNewsletter" checked>
+                    <label for="petitionNewsletter" data-i18n="modal.newsletter">Keep me updated on the campaign</label>
+                </div>
+                <button type="submit" class="btn btn-primary btn-full">
+                    <i class="fas fa-signature"></i> <span data-i18n="modal.submit">Add My Signature</span>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast">
+        <i class="fas fa-check-circle"></i>
+        <span class="toast-message" data-i18n="toast.petitionSuccess">Thank you! Your signature has been added.</span>
+    </div>
+
+    <script src="js/translations.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
